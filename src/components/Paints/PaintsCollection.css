@@ -1,0 +1,30 @@
+.paint-collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paints-items {
+    display: flex;
+}
+
+.header-category {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:  gray;
+}
+
+@media (max-width: 480px) {
+    .paints-items {
+        flex-wrap: wrap;
+    }
+    
+    .paint-collection {
+        width: 100%;
+    }
+
+}
+
+

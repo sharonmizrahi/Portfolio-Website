@@ -1,0 +1,71 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.form-container {
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   height: 300px;
+   font-size: 17px;
+}
+
+
+.ditails {
+    display: flex;
+    margin: 10px 0px 30px 0px;
+    width: 400px;
+    height: 30px;
+
+}
+
+.ditails label {
+    margin-bottom: 20px;
+}
+
+.form-message {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 180px;
+}
+
+.form-send {
+    font-weight: 100px;
+}
+
+.send-button {
+    width: 120px;
+    height: 30px;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 15px;
+    border: 1px grey solid;
+    background-color: rgb(238, 184, 131);
+    margin-top: 15px;
+}
+
+.send-button:hover {
+    border: 2px solid white;
+    background-color: #f4d8a5; 
+    cursor: pointer;
+}
+
+.text {
+
+    width: 365px;
+    height: 200px;
+    background-color: transparent;
+}
+
+.user-name,.user-email {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px grey solid;
+}
+

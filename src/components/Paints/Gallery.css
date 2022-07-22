@@ -1,0 +1,48 @@
+.gallery {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   height: 1600px;
+   margin: 50px 0 60PX 0;
+      
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 1500px;
+}
+
+.gallery-header {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 4px;
+    color:  #FAE1B2;
+}
+
+
+@media (max-width: 480px) {
+    
+    .gallery {
+        height: 6000px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-container {
+        height: 4000px;
+        width: 90%;
+    }
+
+
+    .gallery-header{
+        font-size: 20px;
+    }
+
+}
